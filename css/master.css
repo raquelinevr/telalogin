@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/back4.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.telaLogin{
+    background-color: rgba(0,0,0, 0.4);
+    width: 300px;
+    padding: 40px;
+    border-radius: 7px;
+    position: relative;
+
+}
+
+.telaLogin h2{
+    color: white;
+    text-align: center;
+    margin: 30px 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+     
+}
+
+.telaLogin .user input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background: transparent;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+   
+}
+
+
+.telaLogin .user{
+    position: relative;
+}
+
+.telaLogin .user label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 10px;
+    color: white;
+    font-family: Arial;
+    pointer-events: none;
+    transition: .4s;
+}
+
+.telaLogin .user input:focus~label,
+.telaLogin .user input:valid~label{
+    top: -20px;
+    left: 0;
+    color: white;
+    font-size: 15px;
+}
+
+.telaLogin button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right, rgb(194, 119, 132), rgb(204, 105, 220));
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+p{
+    text-align: center;
+}
+
+.icon-user{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -5%;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.icon-user img{
+    width: 90%;
+
+}
